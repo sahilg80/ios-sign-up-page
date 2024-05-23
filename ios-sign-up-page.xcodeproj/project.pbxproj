@@ -16,6 +16,8 @@
 		3845ED552BF8E7770030E054 /* ios_sign_up_pageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED542BF8E7770030E054 /* ios_sign_up_pageTests.swift */; };
 		3845ED5F2BF8E7770030E054 /* ios_sign_up_pageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED5E2BF8E7770030E054 /* ios_sign_up_pageUITests.swift */; };
 		3845ED612BF8E7770030E054 /* ios_sign_up_pageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED602BF8E7770030E054 /* ios_sign_up_pageUITestsLaunchTests.swift */; };
+		3845ED6E2BF919260030E054 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED6D2BF919260030E054 /* CustomTextField.swift */; };
+		3845ED702BF91ECA0030E054 /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845ED6F2BF91EC90030E054 /* SignUpButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3845ED5A2BF8E7770030E054 /* ios-sign-up-pageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-sign-up-pageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3845ED5E2BF8E7770030E054 /* ios_sign_up_pageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_sign_up_pageUITests.swift; sourceTree = "<group>"; };
 		3845ED602BF8E7770030E054 /* ios_sign_up_pageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_sign_up_pageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3845ED6D2BF919260030E054 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		3845ED6F2BF91EC90030E054 /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpButton.swift; path = Assets.xcassets/SignUpButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3845ED3F2BF8E7760030E054 /* SceneDelegate.swift */,
 				3845ED412BF8E7760030E054 /* ViewController.swift */,
 				3845ED432BF8E7760030E054 /* Main.storyboard */,
+				3845ED6F2BF91EC90030E054 /* SignUpButton.swift */,
+				3845ED6D2BF919260030E054 /* CustomTextField.swift */,
 				3845ED462BF8E7770030E054 /* Assets.xcassets */,
 				3845ED482BF8E7770030E054 /* LaunchScreen.storyboard */,
 				3845ED4B2BF8E7770030E054 /* Info.plist */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3845ED6E2BF919260030E054 /* CustomTextField.swift in Sources */,
 				3845ED422BF8E7760030E054 /* ViewController.swift in Sources */,
 				3845ED3E2BF8E7760030E054 /* AppDelegate.swift in Sources */,
 				3845ED402BF8E7760030E054 /* SceneDelegate.swift in Sources */,
+				3845ED702BF91ECA0030E054 /* SignUpButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
